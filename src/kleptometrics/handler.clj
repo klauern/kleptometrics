@@ -1,4 +1,4 @@
-(ns job-librarian.routes
+(ns kleptometrics.handler
   (:use compojure.core)
   (:require [compojure.handler :as handler]
             [compojure.route :as route]))

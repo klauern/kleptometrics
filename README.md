@@ -1,6 +1,6 @@
-# job-librarian
+# kleptometrics
 
-Job Librarian is a Clojure toy project that hopefully will scratch an itch I've
+`kleptometrics` is a Clojure **toy ** project that hopefully will scratch an itch I've
 had with an application I'm maintaining at work.  It's purpose is to:
 
   * manage job runs
