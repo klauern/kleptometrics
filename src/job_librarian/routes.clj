@@ -1,4 +1,4 @@
-(ns job-librarian.handler
+(ns job-librarian.routes
   (:use compojure.core)
   (:require [compojure.handler :as handler]
             [compojure.route :as route]))
