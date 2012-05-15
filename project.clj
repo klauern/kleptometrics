@@ -9,4 +9,5 @@
                  [enlive "1.0.0"] 
                  [cheshire "4.0.0"]]
   :plugins [[lein-ring "0.7.0"]]
-  :ring {:handler kleptometrics.handler/app})
+  :ring {:handler kleptometrics.handler/app}
+  :main kleptometrics.app)

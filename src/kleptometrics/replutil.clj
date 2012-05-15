@@ -1,5 +1,5 @@
 (ns kleptometrics.replutil
-  (:require [job-librarian.handler])
+  (:require [kleptometrics.handler])
   (:use [ring.util.serve]))
 
 (serve kleptometrics.handler/app)
