@@ -2,4 +2,6 @@
   (:require [kleptometrics.handler])
   (:use [ring.util.serve]))
 
-(serve kleptometrics.handler/app)
+
+(defn serve-it []
+  (serve kleptometrics.handler/app))

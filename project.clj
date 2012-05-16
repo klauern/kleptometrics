@@ -6,12 +6,12 @@
                  [ring-serve "0.1.2"]
                  [org.clojure/java.classpath "0.1.0"]
                  [ring "1.0.1"]
-                 [enlive "1.0.0"] 
+;;                 [hiccup "1.0.0"]
                  [cheshire "4.0.0"]
                  [midje "1.4.0"]]
   ;; :dev-dependencies []
   :plugins [[lein-ring "0.7.0"]
-            [lein-ccw "1.2.0"];; Only on Leiningen 1.7.x
+            ;[lein-ccw "1.2.0"];; Only on Leiningen 1.7.x
             [lein-midje "1.0.10"]]
   :ring {:handler kleptometrics.handler/app}
   :main kleptometrics.app)
