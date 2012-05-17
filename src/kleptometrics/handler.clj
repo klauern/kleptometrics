@@ -6,11 +6,15 @@
 (defroutes app-routes
   (GET "/" [] "Hello World")
   (route/not-found "Not Found")
-  (POST "/logentry" [request] (add-entry request)))
+  (POST "/logentry" [request])
+  )
+
+(defonce events (atom {}))
 
 (def app
   (handler/site app-routes))
 
 (defn add-entry
   "Add an event entry to the system"
-  [request])
+  [entry]
+  (swap! assoc events (:id entry) entry))
