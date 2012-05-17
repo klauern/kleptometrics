@@ -8,6 +8,11 @@ A metrics-gathering thingy for multiple jobs
 	</projects>
 	<buildSpec>
 		<buildCommand>
+			<name>ccw.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
 			<name>ccw.leiningen.builder</name>
 			<arguments>
 			</arguments>
@@ -27,5 +32,6 @@ A metrics-gathering thingy for multiple jobs
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>ccw.leiningen.nature</nature>
+		<nature>ccw.nature</nature>
 	</natures>
 </projectDescription>

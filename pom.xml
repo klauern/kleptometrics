@@ -9,7 +9,7 @@
   <scm>
     <connection>scm:git:git://github.com/klauern/kleptometrics.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/klauern/kleptometrics.git</developerConnection>
-    <tag>17643fe2244c271dad0b8e1e0fb9540957475946</tag>
+    <tag>26d6c70c1b12e43cf3f6a39bcd66b093f17f61cd</tag>
     <url>https://github.com/klauern/kleptometrics</url>
   </scm>
   <build>
@@ -80,14 +80,14 @@
       <version>1.0.1</version>
     </dependency>
     <dependency>
-      <groupId>enlive</groupId>
-      <artifactId>enlive</artifactId>
-      <version>1.0.0</version>
-    </dependency>
-    <dependency>
       <groupId>cheshire</groupId>
       <artifactId>cheshire</artifactId>
       <version>4.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>midje</groupId>
+      <artifactId>midje</artifactId>
+      <version>1.4.0</version>
     </dependency>
   </dependencies>
 </project>
