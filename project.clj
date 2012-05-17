@@ -6,7 +6,7 @@
                  [ring-serve "0.1.2"]
                  [org.clojure/java.classpath "0.1.0"]
                  [ring "1.0.1"]
-                 [hiccup "1.0.0"]
+                 [hiccup "1.0.0"] 
                  [cheshire "4.0.0"]
                  [tnrglobal/bishop "1.0.2"]]
   :dev-dependencies [[midje "1.4.0"]]
