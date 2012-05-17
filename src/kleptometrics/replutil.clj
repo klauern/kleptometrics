@@ -4,4 +4,4 @@
 
 
 (defn serve-it []
-  (serve kleptometrics.handler/app))
+  (serve kleptometrics.handler/app)) 

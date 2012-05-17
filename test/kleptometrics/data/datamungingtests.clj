@@ -4,4 +4,3 @@
 
 (fact "valid JSON is parsed as valid JSON"
   (d/valid? "{ id: name}") => false)
-
