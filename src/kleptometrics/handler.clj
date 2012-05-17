@@ -5,9 +5,8 @@
 
 (defroutes app-routes
   (GET "/" [] "Hello World")
-  (route/not-found "Not Found")
   (POST "/logentry" [request])
-  )
+  (route/not-found "Not Found"))
 
 (defonce events (atom {}))
 

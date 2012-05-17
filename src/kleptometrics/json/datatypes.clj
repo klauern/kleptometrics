@@ -3,5 +3,4 @@
 
 (defn valid? 
   "Parses whether the incoming data is a valid json entity"
-  [data]
-  )
+  [data])
